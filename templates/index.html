@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>챌린지 작성</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../static/challengeWrite.js" defer></script>
+</head>
+<body>
+    <div class="input-container">
+        <div class="challenge-container">
+            <input type="text" id="chal_title" placeholder="챌린지 명 ex) 하프마라톤 도전">
+        </div>
+        <div class="check-container">
+            <div class="check-content">
+                <input type="text" id="checklist" class="checklist" placeholder="ex) 매일 5km 러닝" data-num=0 />
+            </div>
+            <input type="button" onclick="addCheck()" value="체크리스트 추가"/>
+        </div>
+        <button onclick="saveChal()">챌린지 등록</button>
+    </div>
+</body>
+</html>
