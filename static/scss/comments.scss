@@ -1,0 +1,29 @@
+header {
+	display: flex;
+	align-items: center;
+	padding: 20px 0px;
+	svg {
+		width: 30px;
+		height: 30px;
+	}
+	h1 {
+		margin-left: 10px;
+		margin-bottom: 0px;
+		display: flex;
+		align-items: center;
+	}
+}
+
+main {
+	.card {
+		margin-bottom: 20px;
+
+		&.frm-add {
+			padding: 20px;
+
+			button {
+				margin-top: 10px;
+			}
+		}
+	}
+}
