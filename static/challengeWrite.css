@@ -1,0 +1,76 @@
+* {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#header__background {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./challenge.jpg") center 80%/cover no-repeat;
+}
+
+.header__text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+.header__text button {
+    background-color: inherit;
+    color: inherit;
+    font-size: 26px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.input-container {
+    margin: 20px auto;
+    min-width: 400px;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 3px 0 gray;
+    border-radius: 10px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.challenge-container {
+    margin: 0 auto;
+    min-width: 400px;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 3px 0 gray;
+    border-radius: 10px;
+}
+
+.challenge-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.challenge-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 0;
+}
